@@ -1,0 +1,87 @@
+header{
+    text-align: center;
+    background-color: gainsboro;
+    color: blue;
+    padding: 20px;    
+}
+h1 {
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+table th {
+    width: 10em;
+}
+table {
+    border-collapse: collapse;
+}
+    tr:nth-of-type(1) > th {
+        background-color: silver;
+        border-bottom: solid 5px grey;
+    }
+   
+tr:nth-of-type(2) > th,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(4) > th,
+tr:nth-of-type(5) > th,   
+tr:nth-of-type(6) > th,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th,
+tr:nth-of-type(9) > th,
+tr:nth-of-type(10) > th,
+tr:nth-of-type(11) > th,
+tr:nth-of-type(12) > th,
+tr:nth-of-type(13) > th,
+tr:nth-of-type(14) > th, 
+tr:nth-of-type(15) > th { background-color: skyblue;
+}
+
+th, td {
+    padding: 20px;
+}
+
+table {
+    padding: 20px;
+    background-color: silver;
+    color:black 
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+tr:hover td {
+    background-color: #ddd;
+    color:black
+}
+
+div.contenedor {
+    margin: 50px 600px;
+    width: 600px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+
+p {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: blue;
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+*{
+    margin: 0px;
+}
